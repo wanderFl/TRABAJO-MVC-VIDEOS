@@ -1,0 +1,8 @@
+Este proyecto es una aplicación de gestión de proyectos construida con Vue 3, utilizando Firebase Firestore como base de datos. La aplicación permite visualizar empleados, tareas y proyectos, así como filtrar tareas basadas en fechas específicas.
+
+GitHub: https://github.com/chavmath/minicore-mvc
+Deploy del proyecto: https://minicore-mvc.netlify.app/
+Video de funcionamiento: 
+
+Contactos: 
+wanderley.flores@udla.edu.ec

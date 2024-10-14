@@ -1,32 +1,32 @@
 
-# Gestión de Proyectos con Vue 3 y Firebase
+# Gestión de Proyectos con Vue 3 y Firebase con base de datos
 
-Este proyecto es una aplicación de gestión de proyectos construida con Vue 3, utilizando Firebase Firestore como base de datos. La aplicación permite gestionar empleados, tareas y proyectos, así como filtrar tareas basadas en fechas específicas.
+# La aplicación permite gestionar empleados, tareas,  proyectos filtrando tafeas especificas en las fechas que el usuario desee ver.
 
-## Estructura del Proyecto
+# Estructura del Proyecto
 
-El proyecto sigue el patrón MVC (Modelo-Vista-Controlador) utilizando Vuex para la gestión del estado y Firebase para la base de datos.
+<!-- # El proyecto sigue el patrón MVC (Modelo-Vista-Controlador) utilizando Vuex para la gestión del estado y Firebase para la base de datos. -->
 
 ```
 src/
 ├── assets/                      # Archivos estáticos (CSS, imágenes, etc.)
-├── components/                  # Componentes Vue
-│   ├── Empleados.vue            # Componente para gestionar empleados
-│   ├── Tareas.vue               # Componente para gestionar tareas
-│   ├── Proyectos.vue            # Componente para gestionar proyectos
+├── components/                  # Componentes de Vue
+│   ├── Empleados.vue            # Componente para la gestion de empleados
+│   ├── Tareas.vue               # Componente para gestion de tareas
+│   ├── Proyectos.vue            # Componente para gestion de proyectos
 │   ├── Filtrado.vue             # Componente para filtrar tareas
 ├── controllers/                 # Controladores para gestionar la lógica de negocio
-│   ├── empleadosController.js   # Lógica para empleados
-│   ├── tareasController.js      # Lógica para tareas
-│   └── proyectosController.js   # Lógica para proyectos
-├── models/                      # Modelos de datos
-│   ├── empleado.js              # Modelo de empleado
-│   ├── tarea.js                 # Modelo de tarea
-│   └── proyecto.js              # Modelo de proyecto
+│   ├── empleadosController.js   # Lógica para los empleados
+│   ├── tareasController.js      # Lógica para las tareas
+│   └── proyectosController.js   # Lógica para los proyectos
+├── models/                      # Modelos de los datos
+│   ├── empleado.js              # Modelo de los empleado
+│   ├── tarea.js                 # Modelo de las tarea
+│   └── proyecto.js              # Modelo de  los proyecto
 ├── store/                       # Gestión del estado con Vuex
-├── App.vue                      # Componente raíz
+├── App.vue                      # Componente raíz/ principal
 ├── main.js                      # Punto de entrada de la aplicación
-└── router.js                    # Configuración de rutas
+└── router.js                    # Configuración de rutas para la conexin con la base de datos
 ```
 
 ## Instalación
@@ -35,7 +35,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/wanderFl/TRABAJO-MVC-VIDEOS.git
    cd tu-repositorio
    ```
 
@@ -73,21 +73,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
    La aplicación estará disponible en `http://localhost:8080`.
 
-## Uso
-
-### Gestión de Empleados
-
-- **Ver Empleados**: La tabla muestra una lista de todos los empleados almacenados en Firebase.
-
-### Gestión de Tareas
-
-- **Ver Tareas**: La tabla muestra una lista de todas las tareas almacenadas en Firebase.
-- **Filtrar Tareas**: Utiliza el componente de filtrado para ver tareas en un rango de fechas específico.
-
-### Gestión de Proyectos
-
-- **Ver Proyectos**: La tabla muestra una lista de todos los proyectos almacenados en Firebase.
 
 ## Contacto
 
-Si tienes alguna pregunta o necesitas más información, puedes contactarme en [matheo.chavez@udla.edu.ec] o [matheo.chavez9@outlook.com].
+[wanderley.flores@udla.edu.ec]
