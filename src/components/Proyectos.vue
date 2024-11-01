@@ -47,7 +47,7 @@
   background-color: #fff;
   color: #333;
   border-collapse: collapse;
-  border: 1px solid yellow; /* Bordes amarillos */
+  border: 1px solid yellow; 
 }
 
 .table th,
@@ -55,13 +55,13 @@
   padding: 0.75rem;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid yellow; /* Bordes amarillos */
+  border-top: 1px solid yellow; 
 }
 
 .table th {
   font-weight: bold;
   background-color: #d8fe00;
-  border-bottom: 1px solid yellow; /* Bordes amarillos en encabezado */
+  border-bottom: 1px solid yellow; 
 }
 </style>
 

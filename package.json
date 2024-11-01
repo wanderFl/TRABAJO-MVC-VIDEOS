@@ -4,8 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vue-cli-service build",
-    "start": "serve -s dist"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",

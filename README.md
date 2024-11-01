@@ -73,7 +73,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
    La aplicación estará disponible en `http://localhost:8080`.
 
-
+5. **deployado**
+https://inquisitive-moonbeam-552bab.netlify.app/
 ## Contacto
 
 [wanderley.flores@udla.edu.ec]
